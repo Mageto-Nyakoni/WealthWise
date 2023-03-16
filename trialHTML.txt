@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Financial Standing Survey</h1>
+      <p>
+        Take this quick survey so that we can determine where you stand
+        financially
+      </p>
+    </header>
+    <hr />
+
+    <div class="survey">
+      <div class="q1">
+        <h3>Education Level?</h3>
+        <ul class="option1">
+          <li>
+            <input type="radio" id="someHS" name="someHS" value="SHS">
+            <label for="someHS">Some High School</label> <br>
+          </li>
+          <li>
+            input type="radio" id="someHS" name="someHS" value="SHS">
+            <label for="someHS">High School Diploma</label> <br>
+          </li>
+          <li>Some College</li>
+          <li>Associates Degree</li>
+          <li>Bachelors Degree</li>
+          <li>Graduate Degree</li>
+        </ul>
+      </div>
+
+      <div class="q2">
+        <h3>How Many People (Other Than Yourself) Do You Support?</h3>
+        <ul class="option2">
+          <li>0</li>
+          <li>1-2</li>
+          <li>3+</li>
+        </ul>
+      </div>
+
+      <div class="q3">
+        <h3>Household Income</h3>
+        <ul class="option3">
+          <li>$0-$25,000</li>
+          <li>$25,000-$50,000</li>
+          <li>$50,000-$100,000</li>
+          <li>$100,000+</li>
+        </ul>
+      </div>
+
+      
+      <div class="end">
+        <h1>Our hack for you is to find God</h1>
+        <p>:)</p>
+        <a href="trial.html">Take another survey</a>
+      </div>
+    </div>
+
+    <!--type ins-->
+    <div class="typeIns">
+      <div class="q4">
+        <h3>Household Expenses</h3>
+        <ul class="option4">
+          <form action="expenses"></form>
+            <li>
+              <label for="taxAm">Taxes:</label>
+              <input type="number" id="taxAm" name="taxAm" />
+            </li>
+            <li>
+              <label for="watUtil">Water and Utilities:</label>
+              <input type="number" id="watUtil" name="watUtil" />
+            </li>
+            <li>
+              <label for="rentAm">Rent:</label>
+              <input type="number" id="rentAm" name="rentAm" />
+            </li>
+            <li>
+              <label for="carAm">Car Payment:</label>
+              <input type="number" id="carAm" name="carAm" />
+            </li>
+            <li>
+              <label for="grocAm">Groceries:</label>
+              <input type="number" id="grocAm" name="grocAm" />
+            </li>
+            <li>
+              <label for="entAm">Entertainment:</label>
+              <input type="number" id="entAm" name="entAm" />
+            </li>
+            <li>
+              <label for="miscAm">Misc:</label>
+              <input type="number" id="miscAm" name="miscAm" />
+            </li>
+            <input type="submit" value="Enter">
+          </form>
+        </ul>
+      </div>
+
+      <div class="q5">
+        <h3>Calculated Debt Over The Next Year</h3>
+        <ul class="option5">
+          <form action="debt">
+            <li>
+              <label for="creditAm">Credit:</label>
+              <input type="number" id="creditAm" name="creditAm" />
+            </li>
+            <li>
+              <label for="autoAm">Auto:</label>
+              <input type="number" id="autoAm" name="autoAm" />
+            </li>
+            <li>
+              <label for="rentAm">Rent:</label>
+              <input type="number" id="rentAm" name="rentAm" />
+            </li>
+            <li>
+              <label for="stuAm">Student Loan:</label>
+              <input type="number" id="stuAm" name="stuAm" />
+            </li>
+            <li>
+              <label for="mortAm">Mortgage:</label>
+              <input type="number" id="mortAm" name="mortAm" />
+            </li>
+            <li>
+              <label for="misc2Am">Misc:</label>
+              <input type="number" id="misc2Am" name="misc2Am" />
+            </li>
+            <!--<input type="submit" value="Submit">-->
+          </form>
+        </ul>
+      </div>
+    </div>
+
+    <script src="act.js"></script>
+  </body>
+</html>

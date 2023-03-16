@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(red, rgb(74, 214, 172));
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+li{
+    text-decoration:none;
+    list-style: none;
+}
+
+header{
+    background: red;
+    text-shadow: -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+    color: white;
+    
+    padding: 11px;
+}
+
+header p{
+    font-size: 20px;
+    color: white;
+}
+
+.survey{
+    width: 80%;
+    margin:20px auto;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 11px 11px 65px black;
+}
+
+.survey h3{
+    color: rgb(74, 214, 172);
+    text-shadow: -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+    margin: 1px;
+    padding-top: 10px;
+
+}
+
+.survey li{
+    margin: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.survey li:hover{
+    background: rgb(255, 255, 255);
+    width: 200px;
+    margin: 0 auto;
+    padding: 1px;
+    border-radius: 15px;
+    transition: 5% ease;
+}
+
+.typeIns{
+    width: 80%;
+    margin:20px auto;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 11px 11px 65px black;
+}
+
+.typeIns h3{
+    color: rgb(74, 214, 172);
+    text-shadow: -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+    margin: 1px;
+    padding-top: 10px;
+
+}
+
+.typeIns li{
+    margin: 15px;
+    font-weight: bold;
+}
+
+
+.end{
+    background-color: blueviolet;
+    color: white;
+    width: 80%;
+    margin: 5% auto;
+    padding: 82px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px black;
+}
+
+.end h1{
+    margin: 5px;
+}
+
+.end p{
+    padding: 10px;
+}
+
+.end a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background: green;
+}
+
+.end a:hover{
+    box-shadow: 1px 1px 7px black;
+    transition: 5%;
+}
+/* Display Change Properties*/
+.q1{
+    display: block;
+}
+.q2{
+    display: none;
+}
+.q3{
+    display: none;
+}
+.q4{
+    display: none;
+}
+.q5{
+    display: none;
+}
+.q6{
+    display: none;
+}
+.end{
+    display: none;
+}
